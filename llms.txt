@@ -1167,8 +1167,7 @@ function renderBanners(){
 }
 
 function renderFooter(){
-  const updated = STATE.meta && STATE.meta.updatedAt ? ' · Last updated '+esc(fmtDateTime(STATE.meta.updatedAt))+' <span class="zh">最後更新</span>' : '';
-  return '<footer class="credit">Built with Claude · Updates sync instantly for everyone viewing this page <span class="zh">以 Claude 建立，資料即時同步給所有檢視者</span>'+updated+'</footer>';
+  return '';
 }
 
 function renderMain(){
